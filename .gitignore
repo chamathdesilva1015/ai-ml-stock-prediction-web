@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Model artifacts
+models/*.pkl
+
+# Data files (large / regenerated)
+data/*.csv
+
+# Logs
+logs/
+.vscode/
+.python-version
+

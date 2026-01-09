@@ -1,0 +1,9 @@
+{
+    "tickers": ["AAPL", "MSFT", "GOOG"],
+    "start_date": "2020-01-01",
+    "end_date": "2025-11-01",
+    "features": ["Close", "SMA_10", "SMA_50", "EMA_20", "RSI_14",
+                 "Return", "Volatility", "Close_lag1", "Close_lag2", "Close_lag3"],
+    "forecast_horizons": [1, 5],
+    "rf_estimators": 200
+}
